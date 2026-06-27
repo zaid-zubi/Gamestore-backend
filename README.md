@@ -98,3 +98,9 @@ make run
 http://127.0.0.1:8000/docs
 ```
 ---# Gamestore-backend
+
+## Testing APIs
+```commandline
+export PYTHONPATH=.
+pytest
+```
