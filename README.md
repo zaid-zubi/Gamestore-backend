@@ -29,6 +29,8 @@ DB_HOST=
 DB_PORT=
 DB_NAME=game_store
 JWT_SECRET_KEY=
+JWT_ALGORITHM=HS256
+JWT_EXPIRE_MINUTES=120
 ```
 
 > 🔐 Make sure to generate a secure JWT secret key before running the application.
